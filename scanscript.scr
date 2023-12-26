@@ -1,15 +1,15 @@
-login_file win-1uspeq96nv "C:\ProgramData\HCL\AppScanSource\config\ounceautod.token" -acceptssl
+login_file WIN-1USPEQ96NVC "C:\ProgramData\HCL\AppScanSource\config\ounceautod.token" -acceptssl
 RUNAS AUTO
-OF "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank"
+OF "C:\actions-runner\actions-runner-win-x64-2.311.0\_work\ascau4ghr\ascau4ghr"
 SCAN AltoroJ_1.ozasmt 
-rpt "Software Security Profile" html "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\AltoroJ_2_SecurityReport.html" -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
-pase "E:\Downloads\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\AltoroJ_1.ozasmt" -name AltoroJ_1 -aseapplication AltoroJ_GitRun
+rpt "Software Security Profile" html "C:\actions-runner\actions-runner-win-x64-2.311.0\_work\ascau4ghr\ascau4ghr\AltoroJ_2_SecurityReport.html" -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
+pase "C:\actions-runner\actions-runner-win-x64-2.311.0\_work\ascau4ghr\ascau4ghr\AltoroJ_1.ozasmt" -name AltoroJ_1 -aseapplication AltoroJ_GitRun
 exit
 
-## login_file win-1uspeq96nv "C:\ProgramData\HCL\AppScanSource\config\ounceautod.token" -acceptssl
+## login_file WIN-1USPEQ96NVC "C:\ProgramData\HCL\AppScanSource\config\ounceautod.token" -acceptssl
 ## RUNAS AUTO
 ## oa "AltoroJ_1.paf" -appserver_type "Tomcat7" -no_ear_project
 ## ra "AltoroJ_1.ozasmt" -scanconfig "Normal scan"
-## rpt "Software Security Profile" html E:\actions-runner\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\AltoroJ_1_SecurityReport.html -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
-## pase "E:\actions-runner\actions-runner-win-x64-2.299.1\_work\altorobank\altorobank\AltoroJ_1.ozasmt" -name AltoroJ_1 -aseapplication AltoroJ_GitAR1
+## rpt "Software Security Profile" html C:\actions-runner\actions-runner-win-x64-2.311.0\_work\ascau4ghr\ascau4ghr\AltoroJ_1_SecurityReport.html -includeHowToFix -includeSrcBefore:5 -includeSrcAfter:5 -includeTrace:suspect
+## pase "C:\actions-runner\actions-runner-win-x64-2.311.0\_work\ascau4ghr\ascau4ghr\AltoroJ_1.ozasmt" -name AltoroJ_1 -aseapplication AltoroJ_GitAR1
 ## exit
